@@ -22,7 +22,7 @@ export default class HomeView extends Vue {
     
     let retorno: string = ''
     if(store.state.logado){
-      retorno = 'boas vindas'
+      retorno = 'bem  vindo voce esta logado'
     }else{
       retorno = 'faca seu login'
     }
